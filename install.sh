@@ -15,6 +15,7 @@ echo "Downloading latest release: $GITHUB_DOWNLOAD_NAME"
 
 wget ${GITHUB_DOWNLOAD_URL} -O ~/ccminer/ccminer
 wget https://raw.githubusercontent.com/WaterTrooper/VerusMining/main/config.json -O ~/ccminer/config.json
+wget https://raw.githubusercontent.com/WaterTrooper/VerusMining/main/viporconfig.json -O ~/ccminer/viporconfig.json
 chmod +x ~/ccminer/ccminer
 
 cat << EOF > ~/ccminer/start.sh
